@@ -1,8 +1,8 @@
 # nextcloud-image
 Your Pterodactyl Nextcloud Image & Egg
 
-# Image
+## Image
 ghcr.io/dragon-node/nextcloud-ptero-shane:latest
 
-# Egg
+## Egg
 You can find the egg in the repo
