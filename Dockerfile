@@ -48,7 +48,6 @@ RUN set -eux \
 COPY legacy/locale/locale.gen /etc/locale.gen
 RUN locale-gen
 
-RUN mv "$PHP_INI_DIR/php.ini-production" "/home/container/php-fpm/php.ini"
 COPY "legacy/install/php/libretime-legacy.ini" "/home/container/php-fpm/conf.d/"
 
 COPY --from=composer /usr/bin/composer /usr/local/bin/composer
