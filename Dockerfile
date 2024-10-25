@@ -4,7 +4,7 @@ ENV LIBRETIME_CONFIG_FILEPATH=/home/container/config.yml
 ENV LIBRETIME_LOG_FILEPATH=php://stderr
 
 # Custom user
-ARG USER=root
+ARG USER=container
 ARG UID=1000
 ARG GID=1000
 
