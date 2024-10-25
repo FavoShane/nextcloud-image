@@ -63,8 +63,6 @@ RUN set -eux \
     && composer --no-cache dump-autoload --no-interaction --no-dev
 
 # Run
-USER ${UID}:${GID}
-
 ARG LIBRETIME_VERSION
 ENV LIBRETIME_VERSION=$LIBRETIME_VERSION
 
