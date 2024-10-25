@@ -87,4 +87,4 @@ COPY ./entrypoint.sh /entrypoint.sh
 
 
 CMD ["/bin/ash", "/entrypoint.sh"]
-LABEL org.opencontainers.image.source="https://github.com/FavoShane/radio-image
+LABEL org.opencontainers.image.source="https://github.com/FavoShane/radio-image"
